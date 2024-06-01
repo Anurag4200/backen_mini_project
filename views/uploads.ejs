@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full min-h-screen bg-zinc-900 p-10 text-white space-y-3">
+        <h1 class="text-3xl tracking-tight">Upload Files</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" id="file" class="block w-full cursor-pointer"/>
+            <input class="px-3 py-2 mt-4 text-sm rounded-md bg-yellow-500 hover:bg-yellow-600 cursor-pointer" type="submit" value="Upload File">
+        </form>
+    </div>
+</body>
+</html>
